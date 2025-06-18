@@ -60,12 +60,24 @@ const page = () => {
         </div>
 
         <div className='py-28 container max-w-4xl mx-auto'>
-          <div className="grid grid-cols-3 md:gap-4 gap-2 text-red-600">
-              <div className="col-span-2 bg-black border-2 border-dashed border-red-600 h-80 rounded-xl flex justify-center items-center">04</div>
-              <div className="bg-black border-2 border-dashed border-red-600 h-80 rounded-xl flex justify-center items-center">04</div>
-              <div className="bg-black border-2 border-dashed border-red-600 h-80 rounded-xl flex justify-center items-center">04</div>
-              <div className="col-span-2 bg-black border-2 border-dashed border-red-600 h-80 rounded-xl flex justify-center items-center">04</div>
-          </div>
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-4 text-red-600">
+              <div className="md:col-span-2 text-center bg-black border-2 border-dashed border-red-600 h-80 rounded-xl flex flex-col justify-center items-center p-3">
+                <div className="font-extrabold text-3xl">Trade Skills 1-on-1</div>
+                <div className="text-lg font-semibold pt-2">&quot;You teach me X, I&apos;ll teach you Y&quot;</div>
+              </div>
+              <div className="text-center bg-black border-2 border-dashed border-red-600 h-80 rounded-xl flex flex-col justify-center items-center p-3">
+                <div className="font-extrabold text-3xl">No Cash Needed</div>
+                <div className="text-lg font-semibold pt-2">Knowledge is the only currency</div>
+              </div>              
+              <div className="text-center bg-black border-2 border-dashed border-red-600 h-80 rounded-xl flex flex-col justify-center items-center p-3">
+                <div className="font-extrabold text-3xl">Local or Virtual Swaps</div>
+                <div className="text-lg font-semibold pt-2">Meet up or exchange lessons online</div>
+              </div>               
+              <div className="md:col-span-2 text-center bg-black border-2 border-dashed border-red-600 h-80 rounded-xl flex flex-col justify-center items-center p-3">
+                <div className="font-extrabold text-3xl">Build Your Skill Network</div>
+                <div className="text-lg font-semibold pt-2">Connect, learn, and grow together</div>
+              </div>          
+              </div>
         </div>
       </div>
     </div>
