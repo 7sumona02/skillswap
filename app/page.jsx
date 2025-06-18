@@ -40,9 +40,9 @@ const page = () => {
       >
         <div className="container mx-auto flex justify-between items-center">
           <div className="font-bold text-red-600 text-xl">skillswap</div>
-          <div className="hidden md:flex space-x-4">
-            <a href="#" className="text-red-400 hover:text-red-600">Community</a>
-            <a href="#" className="text-red-400 hover:text-red-600">About</a>
+          <div className="hidden md:flex">
+            <Button variant="link" effect="hoverUnderline" className="bg-transparent"><a href="#" className="text-red-600">Features</a></Button>
+            <Button variant="link" effect="hoverUnderline" className="bg-transparent"><a href="#" className="text-red-600">About</a></Button>
           </div>
         </div>
       </motion.nav>
